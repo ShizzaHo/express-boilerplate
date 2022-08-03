@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    font-family: "helvetica neue", "open sans", sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main__title{
+    font-weight: 100;
+}
+
+.nav{
+    position: absolute;
+    bottom: 30px;
+}
+
+a, a:visited{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
